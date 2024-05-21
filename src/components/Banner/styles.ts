@@ -63,3 +63,31 @@ export const Tags = styled.p`
   color: #C9C9C9;
   text-align: center;
 `
+
+export const BtnContainer = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 10px;
+`
+
+export const Button = styled.div`
+  background-color: #06BD68;
+  color: #FFFFFF;
+  padding: 1em 3em;
+  display: inline-block;
+  border-radius: 0.4em;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 600;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #7A0103;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+`
