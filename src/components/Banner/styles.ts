@@ -45,7 +45,6 @@ export const BannerImg = styled.div`
 
 export const Subtitle = styled.p`
   font-size: 24px;
-  letter-spacing: .3px;
   font-weight: 400;
   color: #FFF;
   margin-top: 32px;
@@ -63,7 +62,7 @@ export const Subtitle = styled.p`
 
 export const Tags = styled.p`
   letter-spacing: .3px;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 700;
   color: #C9C9C9;
   text-align: center;

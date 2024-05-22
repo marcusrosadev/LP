@@ -13,7 +13,8 @@ export const BannerContainer = styled.div`
 `;
 
 export const Title = styled.h2`
-  font-size: 40px;
+  font-size: 25px;
+  line-height: 25px;
   letter-spacing: .3px;
   color: #FFF;
   text-align: center;
