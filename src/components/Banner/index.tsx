@@ -3,12 +3,6 @@ import VideoPlayer from "../VideoPlayer";
 import { Container, BannerContainer, Title, BannerImgContainer, Subtitle, Tags } from "./styles";
 
 const Banner: React.FC = () => {
-  // const [videoClicked, setVideoClicked] = useState(false);
-
-  // const onVideoClicked = () => {
-  //   setVideoClicked(true);
-  // };
-
   return (
     <Container>
       <BannerContainer>
@@ -18,11 +12,6 @@ const Banner: React.FC = () => {
         <BannerImgContainer>
           <VideoPlayer />
         </BannerImgContainer>
-          {/* <BtnContainer>
-            <Button>
-              RESERVAR VAGA DA COMUNIDADE
-            </Button>
-          </BtnContainer> */}
         <Subtitle>ASSISTA <span>ATÉ O FINAL</span> ANTES QUE OS CHINESES TIREM O SITE DO AR!</Subtitle>
         <Tags>#dolphinanty #casachinesa #igamingbug</Tags>
       </BannerContainer>

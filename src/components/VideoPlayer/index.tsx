@@ -1,10 +1,6 @@
 // VideoPlayer.tsx
 import React, { useEffect } from 'react';
 
-// interface VideoPlayerProps {
-//   onVideoClicked: () => void;
-// }
-
 const VideoPlayer: React.FC = () => {
   useEffect(() => {
     const script = document.createElement('script');
@@ -16,17 +12,6 @@ const VideoPlayer: React.FC = () => {
       document.head.removeChild(script);
     };
   }, []);
-
-  // const startClick = () => {
-  //   document.querySelector('.smartplayer-smartplay.smartplayer-elements-container')
-  //     ?.addEventListener('click', () => {
-  //       onVideoClicked();
-  //     })
-  // }
-
-  // useEffect(() => {
-  //   startClick();
-  // }, [])
 
   return (
     <div
